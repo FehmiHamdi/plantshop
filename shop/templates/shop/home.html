@@ -1,0 +1,10 @@
+{% extends 'shop/base.html' %}
+{% block title %}Home - Plant Shop{% endblock %}
+
+{% block content %}
+<div class="text-center">
+    <h1>Welcome to the Plant Shop!</h1>
+    <p>Your best place to find beautiful plants for your home and garden.</p>
+    <a href="{% url 'shop' %}" class="btn btn-success">Start Shopping</a>
+</div>
+{% endblock %}

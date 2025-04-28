@@ -1,0 +1,102 @@
+/* General page styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f9f6;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+.nav-link {
+    color: #555;
+}
+
+.nav-link:hover {
+    color: #4CAF50;
+}
+
+/* Buttons */
+.btn-success {
+    background-color: #4CAF50;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #45a049;
+}
+
+/* Cards (Product Cards, Portfolio) */
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    padding: 20px 0;
+    background-color: #e0f2e9;
+    color: #555;
+}
+
+/* Shop Filters */
+form.row {
+    background-color: #e0f2e9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Tables (Panier Page) */
+.table {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table th, .table td {
+    vertical-align: middle;
+}
+
+/* Forms */
+input.form-control, select.form-select, textarea.form-control {
+    border-radius: 8px;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #2e7d32;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Contact form button */
+form button {
+    margin-top: 10px;
+}
